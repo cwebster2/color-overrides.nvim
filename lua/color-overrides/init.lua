@@ -17,7 +17,7 @@ M.set_overrides = function(clear_colors, set_colors)
   for _, c in pairs(highlights) do
     vim.api.nvim_command(c)
   end
-  vim.api.nvim_command("augroup mycolors")
+  vim.api.nvim_command("augroup coloroverrides")
   for _, c in pairs(highlights) do
     vim.api.nvim_command("autocmd ColorScheme * "..c)
   end
