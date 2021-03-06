@@ -2,6 +2,10 @@
 
 This is a microplugin I use to maintain color scheme overrides in an easy to maintain fashion.
 
+### Requirements
+
+neovim >= 0.5
+
 ### Installing
 
 Vim-plug
